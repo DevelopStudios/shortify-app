@@ -1,0 +1,29 @@
+nav.container.navbar.navbar-expand-lg.navbar-light.bg-light {
+  background: transparent !important;
+}
+
+.nav-container button.btn.btn-secondary {
+  background: #44BBCC;
+  font-family: Open Sans, sans-serif;
+  border: none;
+  outline: none !important;
+}
+
+.nav-container button.btn.btn-primary {
+    outline: none !important;
+    font-family: Open Sans, sans-serif;
+    background: transparent;
+    border: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+    margin-right: 20px;
+}
+
+
+.nav-container .mr-auto.navbar-nav a.nav-link {
+    font-family: Open Sans, sans-serif;
+}
