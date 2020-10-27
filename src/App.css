@@ -20,6 +20,14 @@ p {
   pointer-events: none;
 }
 
+
+.pt-8, .py-8 {
+    padding-top: 7rem!important;
+}
+.pb-8, .py-8 {
+    padding-bottom: 7rem!important;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

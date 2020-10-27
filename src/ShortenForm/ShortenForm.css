@@ -1,6 +1,9 @@
 .form-section .container {
     background: #4F3C6A;
     padding: 30px 60px;
+    z-index: 999;
+    position: relative;
+    bottom: -7px;
 }
 
 .form-section button.btn.btn-primary {

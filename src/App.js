@@ -5,6 +5,7 @@ import Header from './Header/Header';
 import Banner from './Banner/Banner';
 import ShortenForm from './ShortenForm/ShortenForm';
 import About from './About/About';
+import Footer from './Footer/Footer';
 function App() {
   return (
     <div className="App">
@@ -12,6 +13,7 @@ function App() {
         <Banner/>
         <ShortenForm/>
         <About/>
+        <Footer/>
     </div>
   );
 }

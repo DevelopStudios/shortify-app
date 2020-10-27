@@ -14,9 +14,9 @@ const shortenform = () => {
             <div class="row">
               <div class="col">
                 <input
-                  type="email"
+                  type="url"
                   class="form-control"
-                  placeholder="Enter your email"
+                  placeholder="Enter your url..."
                 />
               </div>
               <div class="submit-container">

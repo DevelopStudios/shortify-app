@@ -2,7 +2,7 @@ import React from "react";
 import "./About.css";
 const about = () => {
   return (
-    <div class="about-container">
+    <div class="about-container pt-8 mt-n5">
       <div class="row justify-content-center pt-5">
         <div class="col-12 col-md-10 col-lg-8 text-center">
           <h2>The link shortener that has your brand’s back</h2>
@@ -14,7 +14,8 @@ const about = () => {
       </div>
       <div class="container pt-5">
         <div class="row">
-          <div class="col-12 col-md-4 aos-init aos-animate" data-aos="fade-up">
+          <div class="col-12 col-md-4">
+            <div class="card">
             <div class="icon text-primary mb-3">
             <svg width="310" height="211" viewBox="0 0 310 211" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g clip-path="url(#clip0)">
@@ -60,8 +61,10 @@ const about = () => {
             <p class="text-muted mb-6 mb-md-0">
               Landkit is built to make your life easier. Variables, build tooling, documentation, and reusable components.
             </p>
+            </div>
           </div>
-          <div class="col-12 col-md-4 aos-init aos-animate" data-aos="fade-up" data-aos-delay="50">
+          <div class="col-12 col-md-4 mt-4">
+          <div class="card">
             <div class="icon text-primary mb-3">
             <svg width="306" height="160" viewBox="0 0 306 160" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g clip-path="url(#clip0)">
@@ -129,8 +132,10 @@ const about = () => {
             <p class="text-muted mb-6 mb-md-0">
               Designed with the latest design trends in mind. Landkit feels modern, minimal, and beautiful.
             </p>
+            </div>
           </div>
-          <div class="col-12 col-md-4 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-12 col-md-4 mt-5">
+            <div class="card">
             <div class="icon text-primary mb-3">
             <svg width="267" height="161" viewBox="0 0 267 161" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g clip-path="url(#clip0)">
@@ -176,8 +181,22 @@ const about = () => {
             <p class="text-muted mb-0">
               We've written extensive documentation for components and tools, so you never have to reverse engineer anything.
             </p>
+            </div>
+
           </div>
         </div>
+      </div>
+      <div class="container-fluid mt-5 py-5">
+      <div class="row justify-content-center">
+                <div class="col-12 col-md-10 col-lg-8 text-center">
+                  <h2>
+                    More than a link shortener
+                  </h2>
+                  <button class="btn btn-block cta mt-4">
+                      Get Started for Free
+                    </button>
+                </div>
+              </div>
       </div>
     </div>
   );
