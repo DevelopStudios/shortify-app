@@ -1,10 +1,10 @@
-import React from "react";
+import React, { Fragment, useEffect, useRef, useState }  from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import Button from "react-bootstrap/Button";
 import './Header.css';
-const header = () => {
+const Header = () => {
   return (
     <div class="nav-container">
       <Navbar bg="light" expand="lg">
@@ -29,4 +29,4 @@ const header = () => {
     </div>
   );
 };
-export default header;
+export default Header;
