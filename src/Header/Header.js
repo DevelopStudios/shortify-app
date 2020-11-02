@@ -14,9 +14,9 @@ const Header = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
-            <Nav.Link href="#home">Why Shortify</Nav.Link>
-            <Nav.Link href="#link">Features</Nav.Link>
-            <Nav.Link href="#link">Solutions</Nav.Link>
+            <Nav.Link href="javascript:void(0)">Why Shortify</Nav.Link>
+            <Nav.Link href="javascript:void(0)">Features</Nav.Link>
+            <Nav.Link href="javascript:void(0)">Solutions</Nav.Link>
           </Nav>
           <Navbar.Text>
             <div class="user-actions">
