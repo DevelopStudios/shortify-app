@@ -1,0 +1,8 @@
+button.buttonSmall {
+    background: #2BD0D0;
+    border-radius: 28px;
+    border: none;
+    outline: none !important;
+    box-shadow: none;
+    padding: 9px 24px;
+}

@@ -1,0 +1,44 @@
+.detail-box-card.card .card-body .card-title.h5 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 33px;
+    color: #34313D;
+    text-align: left;
+}
+
+.input-section.d-flex {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.detail-box-card.card .card-body p.card-text {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 26px;
+    color: #9E9AA8;
+    text-align: left;
+}
+
+.detail-box-card.card {
+    background: #fff;
+    border-radius: 5px;
+    width: 350px !important;
+    padding: 60px 32px 35px 32px;
+    height: auto;
+}
+
+.detail-box-card.card .image-container {
+    background: #3A3054;
+    width: 88px;
+    height: 88px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 80px;
+    position: absolute;
+    margin-top: -100px;
+}

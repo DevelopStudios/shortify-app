@@ -1,0 +1,69 @@
+.generated-links.d-flex {
+    max-width: 1110px;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-right: 24px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    background: #fff;
+    margin-top: 20px;
+}
+.generated-links.d-flex .button-container-links {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.generated-links.d-flex p.link-text {
+    padding: 0;
+    margin: 0;
+}
+
+.Generated.links p.link-text {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 36px;
+    letter-spacing: 0.15px;
+    color: #34313D;
+}
+
+.button-container-links .new-link {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 36px;
+    text-align: right;
+    letter-spacing: 0.15px;
+    color: #2BD0D0;
+    margin-right: 20px;
+}
+
+.generated-links.d-flex button.buttonSmall.copy.btn.btn-primary.btn-sm {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 22px;
+    color: #FFFFFF;
+    background: #9AE3E3;
+    border-radius: 5px;
+}
+
+.Generated.links p.link-text {
+    width: 100%;
+    text-align: left;
+}
+
+.Generated.links {
+    background: #f2f2f2;
+    margin-top: -111px;
+}
+
+.generated-links.d-flex button.Copied.buttonSmall.copy.btn.btn-primary.btn-sm {
+    background: #3A3054 !important;
+}
