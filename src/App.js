@@ -135,7 +135,6 @@ function App() {
                   placeholder="Shorten a link here..."
                   onKeyUp={handleInputText}
                 />
-                {/* <div className="error-text">Please add a link</div> */}
               </Form.Group>
             </Form>
           </div>
