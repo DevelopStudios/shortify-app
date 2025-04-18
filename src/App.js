@@ -20,14 +20,17 @@ function App() {
   const [loading, setLoading] = useState(false);
 
     function handleSubmit() {
+      const formData = new FormData();
+      formData.append('url', inputValue);
+      formData.append('is_private', 'false');
       setLoading(true);
       axios
-        .get(`https://api.shrtco.de/v2/shorten?url=${inputValue}/`)
+        .post(`https://ulvis.net/API/write/post`,formData)
         .then((response) => {
           setLoading(false);
           handleReset()
           let urlEntry = {
-            newLink: response.data.result.short_link2,
+            newLink: response.data.data.url,
             oldLink: inputValue,
           };
           setUrls([...urls, urlEntry]);
